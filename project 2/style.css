@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 90%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-container {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  margin: auto;
+  max-width: calc(100% - 80px);
+  align-items: center;
+}
+
+.nav-container .logo {
+  padding: 10px 0px 10px 0px;
+}
+
+.nav-icons {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  padding: 10px;
+  margin: 0;
+}
+
+.nav-icons li svg {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-icons li {
+  text-align: center;
+}
+
+.nav-icons .cart-cal {
+  background-color: black;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.nav-icons .profile-img {
+  border-left: 1px solid #000;
+  padding-left: 20px;
+}
+
+.nav-icons .profile-img img {
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+.nav-links .nav-list {
+  display: flex;
+  justify-content: center;
+  background-color: #f78d1e;
+  color: #fff;
+  padding: 10px;
+  margin-top: 0;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.electroforming {
+  background: #f5f5f5;
+  padding: 40px 0;
+}
+
+.header-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* left | center | right */
+  align-items: center;
+  text-align: center; /* center column text */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.view-btn {
+  background-color: #f78d1e;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  justify-self: end; /* button goes to right */
+}
+
+.electroforming-img {
+  padding: 40px 0;
+  background: #f4f4f4;
+}
+
+.electroforming-img .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 18%; /* 5 items in a row */
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+  aspect-ratio: 1;
+}
+
+.link h3 {
+  margin: 15px 0 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+.explore a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.explore a:hover {
+  background: #222;
+  color: #fff;
+}
+
+.industry {
+  padding: 60px 0;
+}
+
+.industry .row {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/* LEFT SIDE IMAGE */
+.emerald-img img {
+  width: 650px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+/* HEADING */
+.heading h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+/* PARAGRAPH CONTENT */
+.content {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* TESTIMONIAL ROW */
+.content-img {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+/* SRINIVASAN IMAGE */
+.content-img img {
+  width: 250px;
+  border-radius: 15px;
+}
+
+/* TESTIMONIAL TEXT */
+.content-img div:last-child {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #111;
+  max-width: 520px;
+}
+
+.content-img div:last-child div {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+/* Managing Director line */
+.content-img div:last-child div:last-child {
+  margin-top: 5px;
+  font-weight: 400;
+}
