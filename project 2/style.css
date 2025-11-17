@@ -147,9 +147,9 @@ body {
 
 .explore a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 25px;
   border: 1px solid #555;
-  border-radius: 8px;
+  border-radius: 5px;
   text-decoration: none;
   color: #222;
   font-weight: 500;
@@ -225,4 +225,69 @@ body {
 .content-img div:last-child div:last-child {
   margin-top: 5px;
   font-weight: 400;
+}
+
+.accreditations {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.accreditations-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.title-underline {
+  width: 80px;
+  height: 2px;
+  background: #d6a055; /* gold-ish underline */
+  margin: 0 auto 40px auto;
+}
+
+.accreditations-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px; /* spacing between logos */
+  flex-wrap: wrap; /* allows responsive stacking */
+}
+
+.accreditations-img img {
+  max-width: 100px;
+  height: auto;
+  filter: grayscale(100%); /* optional, matches your image */
+  transition: 0.3s;
+}
+
+.accreditations-img img:hover {
+  filter: grayscale(0%);
+}
+
+.query-btn-wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.query-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #ffa726, #fb8c00); /* orange gradient */
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.query-btn span {
+  font-weight: 700;
+}
+
+.query-btn:hover {
+  background: linear-gradient(90deg, #fb8c00, #f57c00);
+  transform: translateY(-2px);
 }
