@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #dcdcdc;
+}
+
+.nav-container {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+}
+.logo {
+  padding: 20px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  padding: 10px;
+}
+
+.cart {
+  display: flex;
+  padding: 10px;
+}
+
+.cart img {
+  height: 18px;
+  width: 18px;
+}
+.st0 {
+  fill: #fff;
+}
+.st1 {
+  fill: #e4002b;
+}
+.st2 {
+  fill: #202124;
+}
+.st3 {
+  fill: none;
+  stroke: #fff;
+}
+.st4 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #202124;
+}
+.st5 {
+  fill: #c4c4c4;
+  fill-opacity: 0.5;
+}
+
+.sign-in-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 14px;
+  align-items: center;
+  text-align: right;
+  color: #202124;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.sign {
+  border-right: 1px solid #a9a9a9;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.cart-icon img {
+  height: 50px;
+  width: 50px;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon .count {
+  position: absolute;
+  bottom: 18px;
+  left: 20px;
+  z-index: 10;
+  font-weight: bolder;
+}
