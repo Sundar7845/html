@@ -14,8 +14,9 @@ body {
 .nav-container {
   display: flex;
   width: 90%;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
+
 .logo {
   padding: 20px;
 }
@@ -24,6 +25,7 @@ body {
   display: flex;
   list-style: none;
 }
+
 .menu li {
   padding: 10px;
 }
@@ -37,6 +39,7 @@ body {
   height: 18px;
   width: 18px;
 }
+  
 .st0 {
   fill: #fff;
 }
