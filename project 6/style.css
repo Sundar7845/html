@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 40px;
+}
+
+.banner {
+  background-color: #0d6efd;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 14px;
+}
+
+.banner .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-1,
+.col-2 {
+  padding: 10px;
+}
+
+.col-1 h1 {
+  font-size: 80px;
+}
+
+.col-1 .enroll {
+  background-color: white;
+  padding: 20px 40px 20px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.col-1 .brochure {
+  padding: 20px 40px 20px 40px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bolder;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.col-2 img {
+  width: 450px;
+  height: auto;
+}
+
+.about{
+    margin-top: 30px;
+}
+
+.about h1 {
+  text-align: center;
+}
