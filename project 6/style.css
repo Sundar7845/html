@@ -63,10 +63,89 @@
   height: auto;
 }
 
-.about{
-    margin-top: 30px;
+.about {
+  margin-top: 30px;
 }
 
 .about h1 {
   text-align: center;
+  color: #082a5e;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.about p {
+  font-size: 21px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+.card h1 {
+  text-align: center;
+  color: #082a5e;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.card .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  .card .row {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.card .col {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: calc(33.33% - 20px);
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff, #d9e6fa);
+  display: flex;
+  flex-direction: column;
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.card .heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  color: #082a5e;
+  padding: 0x 10px;
+  margin-bottom: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  background-color: #0d6efd;
+  padding: 15px 100px 15px 100px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: cursive;
+  margin-top: auto;
+  display: inline-block;
+}
+
+.card .grid {
+  display: grid;
+  grid-template-columns: 1fr;
 }
