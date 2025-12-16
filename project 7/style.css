@@ -1,0 +1,124 @@
+/* ----- GLOBAL ----- */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* ----- BANNER ----- */
+.banner {
+  background-color: #031b3a;
+}
+
+/* ----- WHY PYTHON CARDS ----- */
+.custom-border {
+  border: 1px solid #1363df;
+  border-bottom: 4px solid #1363df;
+  border-radius: 30px 0 30px 0;
+  padding: 20px;
+  height: 180px;
+}
+
+/* ----- CIRCLES SECTION ----- */
+.circles-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.circle {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.blue-circle {
+  background-color: #1363df;
+}
+
+.orange-circle {
+  background-color: #fd9b00;
+  border-left: 7px solid #fff;
+}
+
+/* Responsive circles */
+@media (max-width: 768px) {
+  .circle {
+    width: 330px;
+    height: 330px;
+    padding: 1.2rem;
+  }
+}
+
+/* ----- SKILL CARDS ----- */
+.skill-card {
+  border: 2px solid #e0e7ff;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card img {
+  height: 50px;
+  margin: 8px;
+}
+
+/* ----- WHO CAN JOIN SECTION ----- */
+.course-img {
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-img img {
+  max-width: 140px;
+  height: auto;
+  object-fit: contain;
+  transition: 0.25s ease;
+}
+
+.course-img img:hover {
+  transform: translateY(-6px);
+}
+
+/* Mobile adjustments */
+@media (max-width: 575px) {
+  .course-img {
+    min-height: 120px;
+  }
+  .course-img img {
+    max-width: 115px;
+  }
+}
+
+.certification {
+  border: 2px solid blue;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+.hat img {
+  height: 250px;
+}
+
+.hat{
+  position: absolute;
+  top: -128px;
+  right: -115px;
+}
+.man{
+  border: 2px solid blue;
+}
