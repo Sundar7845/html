@@ -1,0 +1,41 @@
+/* ----- GLOBAL ----- */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #e7effc;
+}
+
+/* ----- BANNER ----- */
+.banner {
+  background-color: #031b3a;
+}
+
+.feature-card {
+  background: linear-gradient(180deg, #04122b, #020b1a);
+  color: #fff;
+  border-radius: 18px;
+  padding: 20px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card h6 {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.feature-wide {
+  min-height: 150px;
+}
+
+/* Images */
+.feature-card img {
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.card-section .card{
+    border-radius: 30px;
+}
